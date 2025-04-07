@@ -97,5 +97,3 @@ viewer_stats['viewer_rank'] = viewer_stats['mean_viewers'].rank(method='min')
 
 # Merge into directors table
 directors = pd.merge(directors, viewer_stats, on='Directed by')
-
-# Done! You now have a `directors` DataFrame with all the details
